@@ -1993,7 +1993,7 @@ select.form-control:focus::-ms-value {
 
 .top-navigation-4 .main_menu.fixed .logo
 {
-    width: 220px;
+    width: 110px;
     padding: 9px 0;
 }
 .top-navigation-4 .main_menu.fixed .logo img
@@ -2002,7 +2002,7 @@ select.form-control:focus::-ms-value {
 }
 .logo-wrapper {
     text-align: left;
-    min-height: 106px;
+    min-height: 53px;
 }
 .logo-wrapper img {
     display: inline-block;
