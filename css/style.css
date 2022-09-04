@@ -358,7 +358,20 @@ template {
 [hidden] {
   display: none !important;
 }
-
+.logo {
+    text-align: left;
+}
+.logo-sec {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.t-logo {
+    text-align: left;
+    padding-bottom: 0em;
+}
+.logo-sec img {
+    display: inline-block;
+}
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
