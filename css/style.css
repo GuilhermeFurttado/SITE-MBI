@@ -360,6 +360,7 @@ template {
 }
 .logo {
     text-align: left;
+	width: 50%;
 }
 .logo-sec {
     padding-top: 25px;
