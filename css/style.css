@@ -362,8 +362,8 @@ template {
     text-align: left;
 }
 .logo-sec {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .t-logo {
     text-align: left;
@@ -1991,6 +1991,22 @@ select.form-control:focus::-ms-value {
   border-width: 1px 0;
 }
 
+.top-navigation-4 .main_menu.fixed .logo
+{
+    width: 220px;
+    padding: 9px 0;
+}
+.top-navigation-4 .main_menu.fixed .logo img
+{
+    width: 100%;
+}
+.logo-wrapper {
+    text-align: left;
+    min-height: 106px;
+}
+.logo-wrapper img {
+    display: inline-block;
+}
 .form-control-plaintext.form-control-sm, .form-control-plaintext.form-control-lg {
   padding-right: 0;
   padding-left: 0;
