@@ -11,7 +11,7 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
 
 $to = "mbisolutions2022@gmail.com";
 $subject = "$m_subject:  $name";
-$body = "Você recebeu uma nova mensagem da MBI Solutions.\n\n"."Aqui estão os detalhes:\n\nNome: $name\n\n\nEmail: $email\n\nDestino: $m_subject\n\nMensagem: $message";
+$body = "Você recebeu uma nova mensagem da MBI Solutions.\n\n"."Aqui estão os detalhes:\n\nNome: $name\n\n\nEmail: $email\n\nAssunto: $m_subject\n\nMensagem: $message";
 $header = "Para: $email";
 $header .= "Responder para: $email";	
 
