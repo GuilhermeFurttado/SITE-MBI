@@ -39,10 +39,10 @@
 		<div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0 pr-3 border-right">
                     <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">Sobre</a>
-                    <a href="service.html" class="nav-item nav-link">Serviços</a>
-                    <a href="price.html" class="nav-item nav-link">Preços</a>
-                    <a href="project.html" class="nav-item nav-link">Projetos</a>
+                    <a href="sobre.html" class="nav-item nav-link">Sobre</a>
+                    <a href="servico.html" class="nav-item nav-link">Serviços</a>
+                    <a href="preco.html" class="nav-item nav-link">Preços</a>
+                    <a href="projeto.html" class="nav-item nav-link">Projetos</a>
                 </div>
                 <div class="d-none d-lg-flex align-items-center pl-4">
                     <i class="fa fa-2x fa-mobile-alt text-primary mr-3"></i>
@@ -59,69 +59,100 @@
 
     <!-- Page Header Start -->
     <div class="page-header container-fluid bg-primary d-flex flex-column align-items-center justify-content-center">
-        <h1 class="display-3 text-uppercase mb-3">Sobre</h1>
+        <h1 class="display-3 text-uppercase mb-3">Projetos</h1>
         <div class="d-inline-flex text-white">
             <h6 class="text-uppercase m-0"><a class="text-white" href="">Home</a></h6>
             <h6 class="m-0 px-3">/</h6>
-            <h6 class="text-uppercase m-0">Sobre</h6>
+            <h6 class="text-uppercase m-0">Projetos</h6>
         </div>
     </div>
     <!-- Page Header Start -->
 
 
-    <!-- About Start -->
+    <!-- Portfolio Start -->
     <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <img class="img-fluid mb-4 mb-lg-0" src="img/about1.png" alt="">
-                </div>
-                <div class="col-lg-6">
-                    <h1 class="display-4 text-uppercase mb-4">Serviço especial à preços justos</h1>
-                    <h5 class="text-uppercase text-primary mb-3">Mais barato e com mais qualidade que o concorrente.</h5>
-                    <a href="" class="btn btn-primary text-uppercase py-3 px-5">Leia mais</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-
-
-    <!-- About Info Start -->
-    <div class="container-fluid py-5">
-        <div class="container pb-3">
+        <div class="container pt-5 pb-3">
+            <h1 class="display-4 text-uppercase text-center mb-5">Veja nossos projetos</h1>
             <div class="row">
-                <div class="col-lg-4 mb-2">
-                    <div class="d-flex align-items-center bg-light rounded mb-4 px-5" style="height: 150px;">
-                        <i class="fa fa-3x fa-map-marker-alt text-primary mr-3"></i>
-                        <div class="d-flex flex-column">
-                            <h5 class="text-uppercase">Endereço</h5>
-                            <p class="m-0">Ribeirão Preto, São Paulo, Brasil</p>
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-outline-dark text-uppercase py-2 px-4 active" data-filter="*">
+                            <i class="fa fa-star text-primary mr-2"></i>Todos
+                        </li>
+                        <li class="btn btn-outline-dark text-uppercase py-2 px-4" data-filter=".first">
+                            <i class="fa fa-laptop-code text-primary mr-2"></i>Design
+                        </li>
+                        <li class="btn btn-outline-dark text-uppercase py-2 px-4" data-filter=".second">
+                            <i class="fa fa-mobile-alt text-primary mr-2"></i>Desenvolvimento
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative rounded overflow-hidden mb-2">
+                        <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-4x fa-plus text-primary"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-2">
-                    <div class="d-flex align-items-center bg-light rounded mb-4 px-5" style="height: 150px;">
-                        <i class="fa fa-3x fa-envelope-open text-primary mr-3"></i>
-                        <div class="d-flex flex-column">
-                            <h5 class="text-uppercase">E-Mail</h5>
-                            <p class="m-0">mbisolutions2022@gmail.com</p>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative rounded overflow-hidden mb-2">
+                        <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-4x fa-plus text-primary"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-2">
-                    <div class="d-flex align-items-center bg-light rounded mb-4 px-5" style="height: 150px;">
-                        <i class="fas fa-3x fa-phone-alt text-primary mr-3"></i>
-                        <div class="d-flex flex-column">
-                            <h5 class="text-uppercase">Telefone</h5>
-                            <p class="m-0">(16) 99627-4381</p>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative rounded overflow-hidden mb-2">
+                        <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-4x fa-plus text-primary"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative rounded overflow-hidden mb-2">
+                        <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-4x fa-plus text-primary"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative rounded overflow-hidden mb-2">
+                        <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-4x fa-plus text-primary"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative rounded overflow-hidden mb-2">
+                        <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-4x fa-plus text-primary"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- About Info End -->
+    <!-- Portfolio End -->
 
 
     <!-- Footer Start -->
@@ -149,9 +180,9 @@
                 <h4 class="text-uppercase text-white mb-4">Atalhos rápidos</h4>
                 <div class="d-flex flex-column justify-content-start">
                     <a class="text-white-50 mb-2" href="index.html"><i class="fa fa-angle-right text-white mr-2"></i>Home</a>
-                    <a class="text-white-50 mb-2" href="about.html"><i class="fa fa-angle-right text-white mr-2"></i>Sobre</a>
-                    <a class="text-white-50 mb-2" href="service.html"><i class="fa fa-angle-right text-white mr-2"></i>Serviços</a>
-                    <a class="text-white-50 mb-2" href="price.html"><i class="fa fa-angle-right text-white mr-2"></i>Preços</a>
+                    <a class="text-white-50 mb-2" href="sobre.html"><i class="fa fa-angle-right text-white mr-2"></i>Sobre</a>
+                    <a class="text-white-50 mb-2" href="servico.html"><i class="fa fa-angle-right text-white mr-2"></i>Serviços</a>
+                    <a class="text-white-50 mb-2" href="preco.html"><i class="fa fa-angle-right text-white mr-2"></i>Preços</a>
 
                 </div>
             </div>
